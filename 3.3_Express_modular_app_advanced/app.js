@@ -28,4 +28,5 @@ express()
   .listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 // node app.js
+// http://localhost:8080/api/v1/service1/greet?name=Derrick
 // http://localhost:8080/api/v1/service2/greet?name=Derrick
