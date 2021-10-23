@@ -8,6 +8,7 @@ express()
     '/api/v1/',
     greetMiddleware({
       greeting: 'Greeting World!',
+      welcome: 'Welcome World!'
     })
   )
   .listen(PORT, () => {
