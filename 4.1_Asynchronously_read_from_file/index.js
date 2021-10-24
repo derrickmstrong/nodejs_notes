@@ -10,7 +10,7 @@ let blogfile = '';
 //   console.log(blogfile);
 // });
 
-// Option #2
+// Option #2 for Relative paths
 fs.readFile(
   path.resolve(__dirname, './temp/hello.txt'),
   { encoding: 'utf8' },
